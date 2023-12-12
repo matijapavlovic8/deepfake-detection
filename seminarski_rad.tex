@@ -62,15 +62,38 @@
 \chapter{Uvod}
 \label{pog:uvod}
 \section{Pojava}
+Prva poznata pojava pojma "deepfake" datira iz prosinca 2017. godine kada je korisnik Reddita osnovao "subreddit" pod nazivom "r/deepfakes".% citiraj https://www.britannica.com/technology/deepfake
+Ovaj podforum uglavnom je sadržavao pornografski sadržaj u kojem su izmjenjena lica kako bi nalikovali poznatim osobama. Ovaj fenomen predstavlja tehnološki napredak, ali istovremeno izaziva zabrinutost zbog potencijalne zloupotrebe.
+
+Takvi sadržaji često su prikazivali poznate i utjecajne osobe u situacijama koje se nikada nisu dogodile. Neki od poznatijih primjera uključuju papu Franju, bivšeg predsjednika SAD-a Donalda Trumpa te druge javne ličnosti. Ovaj trend je brzo stekao popularnost, često zbog senzacionalizma i šoka koji izaziva.
+
+Unatoč negativnom kontekstu u kojem se često spominje stvaranje deepfake sadržaja, važno je napomenuti da postoji i pozitivan aspekt primjene ove tehnologije. Naime, deepfake tehnologija može se koristiti u edukativne svrhe, kao što je stvaranje videa u kojima poznate osobe, poput Davida Beckhama, podižu svijest o globalnim problemima poput malarije na različitim jezicima.
+
+Osim toga, deepfake tehnologija nalazi primjenu u umjetnosti i zabavi, npr. u stvaranju scena u filmovima nakon smrti glumaca ili njihova digitalnog starenja. Također, postoji značajan broj deepfakeova čija je svrha isključivo humoristična, a takvi se sadržaji često viralno šire društvenim mrežama.
+
+Važno je razumjeti da deepfake tehnologija nosi sa sobom i etičke izazove te da njezina primjena zahtijeva odgovornost kako bi se izbjegla potencijalne šteta i zloupotreba.
 \section{Opasnosti}
+
 
 %-------------------------------------------------------------------------------
 \chapter{Razrada}
 \section{Metode stvaranja}
 \section{Artefakti}
 \section{GAN-ovi}
+GAN-ovi su predstavljeni 2014. godine od strane Ian Goodfellowa i njegovih kolega.
+Osnovna ideja iza GAN sustava jest postojanje dva glavna dijela mreže: generator i diskriminator.
+Tijekom treninga, generator i diskriminator se natječu jedan protiv drugoga. Generator pokušava poboljšati svoje sposobnosti generiranja tako da vara diskriminator, dok diskriminator nastoji postati sve bolji u razlikovanju pravih podataka od lažnih. Ovaj suparnički proces dovodi do poboljšanja kvalitete generiranih podataka tijekom vremena.
+%Generalno o GANu
 \subsection{Generator}
+Generator GAN-a je ključni dio sustava čija je zadaća stvaranje novih uzoraka ili podataka koji bi trebali biti što je moguće sličniji stvarnim primjerima iz skupa podataka na kojem je mreža trenirana. 
+Na ulaz generatora dovodi se nasumični šum, a zatim se on izmjenjuje u izlaz koji nalikuje podatcima iz skupa za treniranje. Uvođenjem nasumičnog šuma, postižemo generiranje raznolikih podataka, uzorkovanjem iz različitih točaka ciljne distribucije.
+Generator dakle kreira sadržaj suparničkim pristupom, pokušava prevariti diskriminator.
+%zadace Generatora
 \subsection{Diskriminator}
+%zadace diskriminatora
+
+\section {Primjena GAN-ova za detekciju deepfake-ova}
+%Ideja za primjenu dolazi iz činjenice da se upravo GAN-ovi često koriste kako bi se kreirali deepfakeovi i oni sami interno pokušavaju detektirati deepfakeove pomocu svog diskiminatora, ovo je vec pokusao taj i taj i ostvario takve i takve rez
 
 %-------------------------------------------------------------------------------
 \chapter{Rezultati i rasprava}
