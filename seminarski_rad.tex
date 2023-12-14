@@ -37,20 +37,24 @@
 
 % Sažetak na hrvatskom
 \begin{sazetak}
-  Unesite sažetak na hrvatskom.
+Ovaj seminarski rad predstavlja metodu detekcije uvjerljivog krivotvorenog sadržaja na društvenim mrežama uporabom GAN-ova. Prvo se detaljno razrađuje sam pojam uvjerljivog krivotvorenog sadržaja, njegova pojava i opasnosti koje proizlaze iz te pojave.
+Nadalje se definiraju osnovni pojmovi i koncepti GAN-ova, predlaže se implementacija sustava koji obavlja detekciju, razmatraju se prednosti i nedostatci implementiranog sustava u odnosu na druge načine detekcije. 
+Naposljetku, iznose se i prijedlozi budućeg rada na projektu, moguća unaprjeđenja i iznose se zaključci o izvedivosti implementacije predloženog sustava u stvarnosti.
 \end{sazetak}
 
 \begin{kljucnerijeci}
- 
+ deepfake, detekcija, GAN, strojno učenje, duboko učenje
 \end{kljucnerijeci}
 
-% Sažetak na hrvatskom
+% Sažetak na engleskom
 \begin{abstract}
-  Abstract
+This seminar paper presents a method of detecting persuasive fake content on social networks using GANs. First, the notion of persuasive fake content itself, its phenomenon and the dangers arising from it are discussed in detail. 
+Furthermore, the basic concepts and concepts of GANs are defined, the implementation of a detection system is proposed, the advantages and disadvantages of the implemented system compared to other detection methods are discussed. 
+In conclusion, we discuss future work, improvements and feasability of a real world implementation.
 \end{abstract}
 
 \begin{keywords}
- 
+ deepfakes, detection, GAN, ML, deep learning
 \end{keywords}
 
 
@@ -86,8 +90,8 @@ Tijekom treninga, generator i diskriminator se natječu jedan protiv drugoga. Ge
 %Generalno o GANu
 \subsection{Generator}
 Generator GAN-a je ključni dio sustava čija je zadaća stvaranje novih uzoraka ili podataka koji bi trebali biti što je moguće sličniji stvarnim primjerima iz skupa podataka na kojem je mreža trenirana. 
-Na ulaz generatora dovodi se nasumični šum, a zatim se on izmjenjuje u izlaz koji nalikuje podatcima iz skupa za treniranje. Uvođenjem nasumičnog šuma, postižemo generiranje raznolikih podataka, uzorkovanjem iz različitih točaka ciljne distribucije.
-Generator dakle kreira sadržaj suparničkim pristupom, pokušava prevariti diskriminator.
+Na ulaz generatora dovodi se nasumični šum, a zatim se on izmjenjuje u izlaz koji nalikuje podatcima iz skupa za treniranje. Uvođenjem nasumičnog šuma te uzorkovanjem iz različitih točaka ciljne distribucije postižemo raznolikost generiranih podataka.
+Generator dakle kreira sadržaj suparničkim pristupom, pokušavajući prevariti diskriminator, poboljšava svoj izlaz iz iteracije u iteraciju.
 %zadace Generatora
 \subsection{Diskriminator}
 %zadace diskriminatora
@@ -104,7 +108,7 @@ Rekreirali smo taj i taj rad, ostvarili te i te rezultate, možemo ih koristiti 
 
 %--- ZAKLJUČAK / CONCLUSION ----------------------------------------------------
 \chapter{Zaključak}
-navesi budući rad, detekcija u videima itd.
+Budući rad na ovom projektu...
 \label{pog:zakljucak}
 
 
