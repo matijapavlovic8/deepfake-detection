@@ -2,7 +2,7 @@
 
 
 \usepackage{blindtext}
-
+\usepackage{indentfirst}
 
 %--- PODACI O RADU / THESIS INFORMATION ----------------------------------------
 
@@ -66,8 +66,9 @@ In conclusion, we discuss future work, improvements and feasability of a real wo
 \chapter{Uvod}
 \label{pog:uvod}
 \section{Pojava}
+
 Prva poznata pojava pojma "deepfake" datira iz prosinca 2017. godine kada je korisnik Reddita osnovao "subreddit" pod nazivom "r/deepfakes".% citiraj https://www.britannica.com/technology/deepfake
-Ovaj podforum uglavnom je sadržavao pornografski sadržaj u kojem su izmjenjena lica kako bi nalikovali poznatim osobama. Ovaj fenomen predstavlja tehnološki napredak, ali istovremeno izaziva zabrinutost zbog potencijalne zloupotrebe.
+Ovaj podforum uglavnom je sadržavao pornografski sadržaj u kojem su izmijenjena lica kako bi nalikovali poznatim osobama. Ovaj fenomen predstavlja tehnološki napredak, ali istovremeno izaziva zabrinutost zbog potencijalne zloupotrebe.
 
 Takvi sadržaji često su prikazivali poznate i utjecajne osobe u situacijama koje se nikada nisu dogodile. Neki od poznatijih primjera uključuju papu Franju, bivšeg predsjednika SAD-a Donalda Trumpa te druge javne ličnosti. Ovaj trend je brzo stekao popularnost, često zbog senzacionalizma i šoka koji izaziva.
 
@@ -75,26 +76,45 @@ Unatoč negativnom kontekstu u kojem se često spominje stvaranje deepfake sadr�
 
 Osim toga, deepfake tehnologija nalazi primjenu u umjetnosti i zabavi, npr. u stvaranju scena u filmovima nakon smrti glumaca ili njihova digitalnog starenja. Također, postoji značajan broj deepfakeova čija je svrha isključivo humoristična, a takvi se sadržaji često viralno šire društvenim mrežama.
 
-Važno je razumjeti da deepfake tehnologija nosi sa sobom i etičke izazove te da njezina primjena zahtijeva odgovornost kako bi se izbjegla potencijalne šteta i zloupotreba.
+Važno je razumjeti da deepfake tehnologija nosi sa sobom i etičke izazove te da njezina primjena zahtijeva odgovornost kako bi se izbjegla potencijalna šteta i zloupotreba.
 \section{Opasnosti}
+
+Širenje \textit{deepfake} tehnologije donosi mnoštvo potencijalnih opasnosti koje nadilaze početnu fascinaciju njezinim tehnološkim mogućnostima. Kako \textit{deepfake}ovi postaju sofisticiraniji, rizici povezani s njihovom zlouporabom postaju sve izraženiji. 
+
+Jedna od glavnih prijetnji je dezinformacija koja proizlazi iz \textit{deepfake}ova. \textit{Deepfake} tehnologija stvara uvjerljiv lažan sadržaj izmišljanjem realističnih scenarija koji uključuju javne ili utjecajne osobe. To može dovesti do ozbiljnih posljedica kao što su širenje lažnih vijesti, manipuliranje javnim mišljenjem ili čak uplitanje u društvene i političke procese. Mogućnost prikazivanja pojedinaca kako govore ili rade stvari koje nikada nisu učinili ugrožava integritet informacija i dovodi u pitanje autentičnost i vjerodostojnost medija i vlasti.
+
+Moguća opasnost je i potencijalni utjecaj na osobni i profesionalni ugled pojedinca. \textit{Deepfake}ovi se mogu zloupotrijebiti za kreiranje obmanjujućih prikaza, što rezultira ozbiljnim društvenim posljedicama i oštećenju ugleda. Posebno su izložene riziku slavne osobe, političari i drugi javni pojedinci, budući da ih uvjerljivo manipulirani video materijali mogu prikazati u nestvarnim kontekstima koji mogu biti i skandalozni.
+
+Opasnosti \textit{deepfake} tehnologije proširuju se na pravnu domenu, izazivajući zabrinutost zbog mogućnosti manipulacije dokazima i potencijalnim narušavanjem integriteta kaznenopravnog sustava. \textit{Deepfake}ovi mogu biti korišteni za lažiranje dokaza u pravnim procesima, što bi dovelo do sumnje u autentičnost video-dokaza i ozbiljno ugrozilo proces traženja istine unutar pravnog okvira.
+
+Manipulacija emocijama i mišljenjima javnosti predstavlja značajnu opasnost koju donosi \textit{deepfake} tehnologija. Stvaranje lažnih dojmova putem ovih manipulativnih sadržaja potiče ljude na donošenje odluka ili podržavanje ideja temeljenih na potpuno izmišljenim informacijama. Takva vrsta manipulacije može imati ozbiljne društvene posljedice, uključujući rast podrške pogrešnim političkim ili društvenim pokretima. Uz to, \textit{deepfake}ovi mogu dovesti do organiziranog javnog djelovanja na temelju tih lažnih ideja i dojmova. U situacijama kada se koriste za manipuliranje masama, mogu potaknuti neželjene reakcije ili čak potaknuti nasilne događaje. Ova opasnost naglašava potrebu za aktivnim pristupom u detekciji i suzbijanju \textit{deepfake}ova kako bi se očuvala društvena stabilnost.
+
 
 
 %-------------------------------------------------------------------------------
 \chapter{Razrada}
 \section{Metode stvaranja}
+Stvaranje \textit{deepfake} sadržaja podrazumijeva primjenu sofisticiranih tehnika temeljenih na naprednom strojnom učenju, među kojima se ističu generativne kontradiktorne mreže (GAN). GAN-ovi igraju ključnu ulogu u ovom procesu, potičući suparničku dinamiku između generatora i diskriminatora, čime se postižu uvjerljive replikacije lica i pokreta te unaprjeđenje u stvaranju sintetičkog sadržaja.
+
+Jedna od značajnih metoda unutar spektra stvaranja \textit{deepfake} sadržaja je zamjena lica (engl. \textit{face-swap}). Ova tehnika uključuje besprijekorno prenošenje karakterističnih crta lica jedne osobe na drugu u videozapisima ili slikama. Često implementiran putem GAN-ova, ovaj proces obuhvaća detekciju i poravnanje karakterističnih točaka lica kako bi se postigla precizna i neprimjetna zamjena lica.
+
+Druga značajna metoda je \textit{puppet-master} tehnika. Idući korak dalje od zamjene lica, ova tehnika manipulira pokretima cijelog tijela kako bi kontrolirala ponašanje ciljane osobe u videozapisu. Korištenjem algoritama dubokog učenja, ove tehnike analiziraju i repliciraju obrasce kretanja, obuhvaćajući karakteristične točke lica, procjenu položaja tijela i animaciju.
+
+Ove metode, bilo da se temelje na GAN-ovima ili drugim naprednim arhitekturama dubokog učenja, naglašavaju prilagodljivost i složenost stvaranja \textit{deepfake} sadržaja. 
+
 \section{Artefakti}
 \section{GAN-ovi}
 GAN-ovi su predstavljeni 2014. godine od strane Ian Goodfellowa i njegovih kolega.
 Osnovna ideja iza GAN sustava jest postojanje dva glavna dijela mreže: generator i diskriminator.
 Tijekom treninga, generator i diskriminator se natječu jedan protiv drugoga. Generator pokušava poboljšati svoje sposobnosti generiranja tako da vara diskriminator, dok diskriminator nastoji postati sve bolji u razlikovanju pravih podataka od lažnih. Ovaj suparnički proces dovodi do poboljšanja kvalitete generiranih podataka tijekom vremena.
-%Generalno o GANu
+
 \subsection{Generator}
 Generator GAN-a je ključni dio sustava čija je zadaća stvaranje novih uzoraka ili podataka koji bi trebali biti što je moguće sličniji stvarnim primjerima iz skupa podataka na kojem je mreža trenirana. 
 Na ulaz generatora dovodi se nasumični šum, a zatim se on izmjenjuje u izlaz koji nalikuje podatcima iz skupa za treniranje. Uvođenjem nasumičnog šuma te uzorkovanjem iz različitih točaka ciljne distribucije postižemo raznolikost generiranih podataka.
 Generator dakle kreira sadržaj suparničkim pristupom, pokušavajući prevariti diskriminator, poboljšava svoj izlaz iz iteracije u iteraciju.
-%zadace Generatora
+
 \subsection{Diskriminator}
-%zadace diskriminatora
+Diskriminator u okviru GAN-a se jednostavno može opisati kao klasifikator, čija je osnovna zadaća razlikovanje stvarnih podataka od onih koje generira sam generator. Proces treniranja diskriminatora uključuje podatke iz dva izvora, čime se postiže njegova sposobnost prepoznavanja stvarnih i generiranih podataka. Stvarni podaci, poput autentičnih slika ljudi, služe kao pozitivni primjeri tijekom učenja. Ovi primjeri omogućuju diskriminatoru da nauči karakteristike stvarnih podataka i stvori referentnu točku za usporedbu tijekom identifikacije lažnih podataka. S druge strane, negativni primjeri dolaze iz lažnih instanci podataka koje proizvodi generator. Diskriminator tijekom treniranja razvija sposobnost razlikovanja autentičnih, stvarnih i generiranih, lažnih podataka. Ovaj proces suparništva potiče dinamički odnos između generatora i diskriminatora, čime se postiže postupna konvergencija prema visokokvalitetnim generiranim podacima.
 
 \section {Primjena GAN-ova za detekciju deepfake-ova}
 %Ideja za primjenu dolazi iz činjenice da se upravo GAN-ovi često koriste kako bi se kreirali deepfakeovi i oni sami interno pokušavaju detektirati deepfakeove pomocu svog diskiminatora, ovo je vec pokusao taj i taj i ostvario takve i takve rez
