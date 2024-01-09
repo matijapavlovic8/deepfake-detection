@@ -43,7 +43,7 @@ Naposljetku, iznose se i prijedlozi budućeg rada na projektu, moguća unaprjeđ
 \end{sazetak}
 
 \begin{kljucnerijeci}
- deepfake, detekcija, GAN, strojno učenje, duboko učenje
+deepfake, detekcija, GAN, strojno učenje, duboko učenje
 \end{kljucnerijeci}
 
 % Sažetak na engleskom
@@ -103,6 +103,9 @@ Druga značajna metoda je \textit{puppet-master} tehnika. Idući korak dalje od 
 Ove metode, bilo da se temelje na GAN-ovima ili drugim naprednim arhitekturama dubokog učenja, naglašavaju prilagodljivost i složenost stvaranja \textit{deepfake} sadržaja. 
 
 \section{Artefakti}
+Artefakti su anomalije i nepravilnosti koje se pojavljuju u uvjerljivom krivotvorenom sadržaju. Najčešće se manifestiraju kao nepravilnosti u osvjetljenju i sjenama, nedostatak ili pogrešni detalji na području usta, ruku i očiju, razmazivanja rubova, promjena teksture površina(često na licima).
+U nekim slučajevima dolazi i do razlike u boji očiju. Sve ove pojave pomažu pri otkrivanju uvjerljivih krivotvorenog sadržaja, golim okom ili pak nekom drugom metodom detekcije. Ukoliko razmatramo uvjerljivo krivotvorene videouratke česte su i inkonzistencije u pokretima, ne poklapanja zvučnih i vizualnih elemenata itd.
+Ukoliko artefakti nisu uočljivi na prvi pogled, a ipak su prisutni, promatraču mogu stvoriti osjećaj nelagode zbog razlike u očekivanom i percipiranom ponašanju, mimici i pokretima.
 \section{GAN-ovi}
 GAN-ovi su predstavljeni 2014. godine od strane Ian Goodfellowa i njegovih kolega.
 Osnovna ideja iza GAN sustava jest postojanje dva glavna dijela mreže: generator i diskriminator.
@@ -116,8 +119,9 @@ Generator dakle kreira sadržaj suparničkim pristupom, pokušavajući prevariti
 \subsection{Diskriminator}
 Diskriminator u okviru GAN-a se jednostavno može opisati kao klasifikator, čija je osnovna zadaća razlikovanje stvarnih podataka od onih koje generira sam generator. Proces treniranja diskriminatora uključuje podatke iz dva izvora, čime se postiže njegova sposobnost prepoznavanja stvarnih i generiranih podataka. Stvarni podaci, poput autentičnih slika ljudi, služe kao pozitivni primjeri tijekom učenja. Ovi primjeri omogućuju diskriminatoru da nauči karakteristike stvarnih podataka i stvori referentnu točku za usporedbu tijekom identifikacije lažnih podataka. S druge strane, negativni primjeri dolaze iz lažnih instanci podataka koje proizvodi generator. Diskriminator tijekom treniranja razvija sposobnost razlikovanja autentičnih, stvarnih i generiranih, lažnih podataka. Ovaj proces suparništva potiče dinamički odnos između generatora i diskriminatora, čime se postiže postupna konvergencija prema visokokvalitetnim generiranim podacima.
 
-\section {Primjena GAN-ova za detekciju deepfake-ova}
-%Ideja za primjenu dolazi iz činjenice da se upravo GAN-ovi često koriste kako bi se kreirali deepfakeovi i oni sami interno pokušavaju detektirati deepfakeove pomocu svog diskiminatora, ovo je vec pokusao taj i taj i ostvario takve i takve rez
+\subsection {Primjena GAN-ova za detekciju deepfake-ova}
+Ideja za primjenu dolazi iz činjenice da se upravo GAN-ovi često koriste kako bi se kreirali deepfakeovi i oni sami interno pokušavaju detektirati deepfakeove pomoću svog diskiminatora. 
+U nastavku ovog rada ekstraktirati ćemo diskriminator već istreniranog GAN modela, te pomoću njega pokušati označiti uvjerljive lažne sadržaje. 
 
 %-------------------------------------------------------------------------------
 \chapter{Rezultati i rasprava}
@@ -128,7 +132,8 @@ Rekreirali smo taj i taj rad, ostvarili te i te rezultate, možemo ih koristiti 
 
 %--- ZAKLJUČAK / CONCLUSION ----------------------------------------------------
 \chapter{Zaključak}
-Budući rad na ovom projektu...
+Budući rad na ovom projektu uključuje izgradnju te treniranje vlastitog GAN modela, treniranje istog te ekstrakciju tako istreniranog diskriminatora. Ovako dobiveni diskriminator može biti iskorišten u raznim programskim rješenjima koja bi u stvarnom vremenu pregledavale sadržaje na društvenim mrežama, 
+detektirale krivotvoreni sadržaj i upozoravale korisnike na pojavu deepfakeova. Smatramo da bi navedena primjena učinila društvene mreže sigurnijima, reducirala širenje dezinformacija i smanjila potencijal za . 
 \label{pog:zakljucak}
 
 
