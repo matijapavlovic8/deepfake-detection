@@ -5,10 +5,10 @@
 \contentsline {chapter}{\numberline {2}Razrada}{3}{}%
 \contentsline {section}{\numberline {2.1}Metode stvaranja}{3}{}%
 \contentsline {section}{\numberline {2.2}Artefakti}{3}{}%
-\contentsline {section}{\numberline {2.3}GAN-ovi}{3}{}%
+\contentsline {section}{\numberline {2.3}GAN-ovi}{4}{}%
 \contentsline {subsection}{\numberline {2.3.1}Generator}{4}{}%
 \contentsline {subsection}{\numberline {2.3.2}Diskriminator}{4}{}%
-\contentsline {section}{\numberline {2.4}Primjena GAN-ova za detekciju deepfake-ova}{4}{}%
-\contentsline {chapter}{\numberline {3}Rezultati i rasprava}{5}{}%
-\contentsline {chapter}{\numberline {4}Zaključak}{6}{}%
-\contentsline {chapter}{\numberline {5}Privitci}{7}{}%
+\contentsline {subsection}{\numberline {2.3.3}Primjena GAN-ova za detekciju deepfake-ova}{5}{}%
+\contentsline {chapter}{\numberline {3}Rezultati i rasprava}{6}{}%
+\contentsline {chapter}{\numberline {4}Zaključak}{10}{}%
+\contentsline {chapter}{\numberline {5}Privitci}{11}{}%

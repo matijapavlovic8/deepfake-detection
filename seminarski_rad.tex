@@ -3,6 +3,9 @@
 
 \usepackage{blindtext}
 \usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfigure}
 
 %--- PODACI O RADU / THESIS INFORMATION ----------------------------------------
 
@@ -67,7 +70,7 @@ In conclusion, we discuss future work, improvements and feasability of a real wo
 \label{pog:uvod}
 \section{Pojava}
 
-Prva poznata pojava pojma "deepfake" datira iz prosinca 2017. godine kada je korisnik Reddita osnovao "subreddit" pod nazivom "r/deepfakes".% citiraj https://www.britannica.com/technology/deepfake
+Prva poznata pojava pojma \textit{deepfake} datira iz prosinca 2017. godine kada je korisnik Reddita osnovao \textit{subreddit} pod nazivom "r/deepfakes".% citiraj https://www.britannica.com/technology/deepfake
 Ovaj podforum uglavnom je sadržavao pornografski sadržaj u kojem su izmijenjena lica kako bi nalikovali poznatim osobama. Ovaj fenomen predstavlja tehnološki napredak, ali istovremeno izaziva zabrinutost zbog potencijalne zloupotrebe.
 
 Takvi sadržaji često su prikazivali poznate i utjecajne osobe u situacijama koje se nikada nisu dogodile. Neki od poznatijih primjera uključuju papu Franju, bivšeg predsjednika SAD-a Donalda Trumpa te druge javne ličnosti. Ovaj trend je brzo stekao popularnost, često zbog senzacionalizma i šoka koji izaziva.
@@ -126,8 +129,70 @@ U nastavku ovog rada ekstraktirati ćemo diskriminator već istreniranog GAN mod
 %-------------------------------------------------------------------------------
 \chapter{Rezultati i rasprava}
 \label{pog:rezultati_i_rasprava}
-Rekreirali smo taj i taj rad, ostvarili te i te rezultate, možemo ih koristiti za to i to
+Koristili smo i rekreirali arhitekturu mreže iz rada "\textit{MesoNet: a Compact Facial Video Forgery Detection Network}\cite{mesonet}". Rad predstavlja učinkovitu metodu za automatsko detektiranje uvjerljivog krivotvorenog sadržaja lica na fotografijama i videozapisima. Posebno se fokusira na dvije moguće tehnike korištene za generiranje hiperrealističkog krivotvorenog sadržaja: \textit{Deepfake} i \textit{Face2Face}. Autori rada ističu da tradicionalne tehnike forenzike slika nisu prikladne za videozapise zbog kompresije koja snažno degradira podatke. Stoga su se odlučili za slijediti pristup dubokog učenja te su predstavili dvije mreže (\textit{Meso-4} i \textit{MesoInception-4}), obje s malim brojem slojeva kako bi se bolje usredotočile na mezoskopska svojstva slika. Eksperimenti su pokazali iznimno visoku stopu uspješnosti detekcije, s više od 98\% za \textit{Deepfake} i 95\% za \textit{Face2Face}.
 
+\begin{figure}[H]
+   \centering
+
+   \begin{minipage}[b]{0.45\linewidth}
+      \subfigure[Arhitektura \textit{Meso-4} mreže \cite{mesonet}\label{fig:arhitektura}]
+         {\includegraphics[width=\linewidth]{slike/arh.png}}
+   \end{minipage}
+   \hfill
+   \begin{minipage}[b]{0.45\linewidth}
+      \subfigure[Rekreiranje arhitekture \textit{Meso-4} mreže u kodu\label{fig:kod}]
+         {\includegraphics[width=\linewidth]{slike/kod.png}}
+   \end{minipage}
+
+\end{figure}
+
+U našem kodu na slici \ref{fig:kod} rekreirali smo \textit{Meso-4} mrežu, čija se arhitektura može vidjeti na slici \ref{fig:arhitektura}\cite{mesonet}. Arhitektura mreže započinje s četiri sloja uzastopnih konvolucija i grupiranja (engl. \textit{pooling}). Za poboljšanje generalizacije, konvolucijski slojevi koriste \textit{ReLU} aktivacijske funkcije i postupak normalizacije po grupi (engl.\textit{batch normalization}), dok potpuno povezani slojevi koriste \textit{dropout} tehniku za reguliranje i poboljšanje robusnosti. Nakon što smo rekreirali arhitekturu mreže, preuzeli smo težine njihovog istreniranog modela i testirali ga na različitim fotografijama. 
+
+Rezultati evaluacije modela pružaju uvid u njegovu sposobnost razlikovanja između stvarnih i krivotvorenih sadržaja. Na slici nniže prikazane su sljedeće vrijednosti: točni pozitivi (engl. \textit{true positives}), lažni pozitivi (engl. \textit{false positives}), točni negativi (engl. \textit{true negatives}) te lažni negativi (engl. \textit{false negatives}).
+
+\setcounter{subfigure}{0}
+\begin{figure}[H]
+   \centering
+
+   \subfigure[\textit{True positives}]{\includegraphics[width=0.8\linewidth]{slike/tp.png}}
+   \subfigure[\textit{False positives}]{\includegraphics[width=0.8\linewidth]{slike/fp.png}}
+   \subfigure[\textit{True negatives}]{\includegraphics[width=0.8\linewidth]{slike/tn.png}}
+   \subfigure[\textit{False negatives}]{\includegraphics[width=0.8\linewidth]{slike/fn.png}}
+
+\end{figure}
+
+Točni pozitivi su stvarni nekrivotvoreni primjeri koje je model ispravno klasificirao, a lažni pozitivi su stvarni krivotvoreni primjera koje je model pogrešno klasificirao kao nekrivotvorene. Točni negativi su ispravno detektirani uvjerljivi krivotvoreni sadržaj, a lažni negativi su stvarni nekrivotvoreni primjeri koje je model pogrešno klasificirao kao krivotvorene. Ovi parametri pružaju cjelovitu sliku očekivane izvedbe modela u kontekstu detekcije krivotvorenog sadržaja.
+
+Matrica zabune (engl. \textit{confusion matrix}), prikazana na slici \ref{fig:matrica}, pruža vizualnu interpretaciju prethodno objašnjenih vrijednosti. Podijeljena je na četiri kvadranta, a svaki kvadrant predstavlja različitu kombinaciju predviđenih i stvarnih klasifikacija. Gornji lijevi kvadrant sadrži točne negative (2564), a gornji desni kvadrant lažne pozitive (281). Donji lijevi kvadrant predstavlja lažne negative (513), dok donji desni kvadrant prikazuje točne pozitive (3746).
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.7\linewidth]{slike/matrica.png}
+   \caption{Matrica zabune (engl. \textit{confusion matrix})}
+   \label{fig:matrica}
+\end{figure}
+
+Slika \ref{fig:report} pruža detaljan izvještaj klasifikacije, uključujući preciznost, odziv, F1-score i podršku za svaku klasu. 
+Preciznost (engl. \textit{precision} mjeri točnost klasifikacije primjera, odnosno stavlja u omjer broj ispravno klasificiranih primjera određene klase s ukupnim brojem primjera predviđenih kao ta klasa. Prema klasifikacijskom izvještaju, klasifikator ima visoku razinu točnosti i preciznosti u razlikovanju između \textit{deepfake} i stvarnih fotografija, s preciznošću od 0,83 za \textit{deepfake} razred i 0,93 za \textit{real} razred.
+Odziv (engl. \textit{recall}) mjeri broj pravilno identificiranih primjera određene klase u odnosu na ukupan broj primjera te klase. Mjera \textit{F1-score} harmonična je sredina preciznosti i odziva, te pruža balansiranu mjeru performansi. Iz priložene slike, primjećujemo vrlo visoke razine odziva i \textit{F1-score}a za obje klase.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.7\linewidth]{slike/report.png}
+   \caption{Klasifikacijski izvještaj}
+   \label{fig:report}
+\end{figure}
+
+AUC-ROC krivulja na slici \ref{fig:auc} pruža grafički prikaz performansi klasifikatora u razlikovanju između dvije klase. Površina ispod krivulje (AUC) mjeri koliko dobro klasifikator razlikuje dvije klase. Što je AUC veći, to je klasifikator bolji u razlikovanju između klasa. Rezultati pokazuju značajnu površinu ispod krivulje, što ukazuje na izvrsne performanse klasifikatora u razlikovanju razreda \textit{deepfake} i \textit{real}. AUC-ROC krivulja je korisna jer omogućuje usporedbu performansi klasifikatora na različitim pragovima odlučivanja.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.7\linewidth]{slike/auc.png}
+   \caption{AUC-ROC krivulja}
+   \label{fig:auc}
+\end{figure}
+
+Sveobuhvatna evaluacija klasifikatora \textit{Meso-4}, temeljenog na \textit{MesoNet} arhitekturi, potvrđuje izuzetnu učinkovitost u detekciji uvjerljivog krivotvorenog sadržaja, pružajući obećavajuće perspektive za suzbijanje manipulacije sadržajem na društvenim mrežama.
 
 
 %--- ZAKLJUČAK / CONCLUSION ----------------------------------------------------
