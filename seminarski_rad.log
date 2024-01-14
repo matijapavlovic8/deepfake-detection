@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  14 JAN 2024 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  14 JAN 2024 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,8 +466,8 @@ File: slike/kod.png Graphic file (type png)
 Package pdftex.def Info: slike/kod.png  used on input line 144.
 (pdftex.def)             Requested size: 185.65297pt x 198.84853pt.
 
-Package natbib Warning: Citation `mesonet' on page 6 undefined on input line 14
-9.
+Package natbib Warning: Citation `mesonet' on page 6 undefined on input line 15
+2.
 
 [6
 
@@ -475,39 +475,39 @@ Package natbib Warning: Citation `mesonet' on page 6 undefined on input line 14
 <slike/tp.png, id=41, 612.48825pt x 173.448pt>
 File: slike/tp.png Graphic file (type png)
 <use slike/tp.png>
-Package pdftex.def Info: slike/tp.png  used on input line 157.
-(pdftex.def)             Requested size: 330.05322pt x 93.46732pt.
+Package pdftex.def Info: slike/tp.png  used on input line 160.
+(pdftex.def)             Requested size: 309.42372pt x 87.62627pt.
 <slike/fp.png, id=42, 591.4095pt x 174.6525pt>
 File: slike/fp.png Graphic file (type png)
 <use slike/fp.png>
-Package pdftex.def Info: slike/fp.png  used on input line 158.
-(pdftex.def)             Requested size: 330.05322pt x 97.46893pt.
+Package pdftex.def Info: slike/fp.png  used on input line 161.
+(pdftex.def)             Requested size: 309.42372pt x 91.3768pt.
 <slike/tn.png, id=43, 596.82974pt x 172.84575pt>
 File: slike/tn.png Graphic file (type png)
 <use slike/tn.png>
-Package pdftex.def Info: slike/tn.png  used on input line 159.
-(pdftex.def)             Requested size: 330.05322pt x 95.58765pt.
+Package pdftex.def Info: slike/tn.png  used on input line 162.
+(pdftex.def)             Requested size: 309.42372pt x 89.61127pt.
 <slike/fn.png, id=44, 598.03426pt x 172.2435pt>
 File: slike/fn.png Graphic file (type png)
 <use slike/fn.png>
-Package pdftex.def Info: slike/fn.png  used on input line 160.
-(pdftex.def)             Requested size: 330.05322pt x 95.0601pt.
+Package pdftex.def Info: slike/fn.png  used on input line 163.
+(pdftex.def)             Requested size: 309.42372pt x 89.1177pt.
  [7 <./slike/tp.png> <./slike/fp.png> <./slike/tn.png> <./slike/fn.png>]
 <slike/matrica.png, id=52, 443.85825pt x 347.49825pt>
 File: slike/matrica.png Graphic file (type png)
 <use slike/matrica.png>
-Package pdftex.def Info: slike/matrica.png  used on input line 170.
+Package pdftex.def Info: slike/matrica.png  used on input line 173.
 (pdftex.def)             Requested size: 288.79422pt x 226.10448pt.
 <slike/report.png, id=53, 281.25075pt x 106.59825pt>
 File: slike/report.png Graphic file (type png)
 <use slike/report.png>
-Package pdftex.def Info: slike/report.png  used on input line 181.
+Package pdftex.def Info: slike/report.png  used on input line 184.
 (pdftex.def)             Requested size: 288.79422pt x 109.45583pt.
  [8 <./slike/matrica.png>]
 <slike/auc.png, id=58, 395.67825pt x 284.86424pt>
 File: slike/auc.png Graphic file (type png)
 <use slike/auc.png>
-Package pdftex.def Info: slike/auc.png  used on input line 190.
+Package pdftex.def Info: slike/auc.png  used on input line 193.
 (pdftex.def)             Requested size: 288.79422pt x 207.92308pt.
  [9 <./slike/report.png> <./slike/auc.png>]
 Poglavlje 4.
@@ -521,28 +521,24 @@ Package natbib Warning: There were undefined citations.
 
 [11
 
-] (seminarski_rad.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (seminarski_rad.aux) ) 
 Here is how much of TeX's memory you used:
- 7459 strings out of 475380
- 123331 string characters out of 2775828
- 484479 words of memory out of 3000000
- 28708 multiletter control sequences out of 15000+600000
+ 7460 strings out of 475380
+ 123342 string characters out of 2775828
+ 484488 words of memory out of 3000000
+ 28709 multiletter control sequences out of 15000+600000
  535123 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,9n,77p,1011b,387s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
-C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.
-pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uh
-vr8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
-ic/uhvro8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-times/utmb8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/times/utmr8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on seminarski_rad.pdf (14 pages, 1473802 bytes).
+ 70i,9n,77p,1011b,384s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/base/8r.enc}<C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/helvetic/uhvb8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Barbara/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Barbara/AppData/Local/Programs
+/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Barbara/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on seminarski_rad.pdf (14 pages, 1473992 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
