@@ -93,7 +93,6 @@ Opasnosti \textit{deepfake} tehnologije proširuju se na pravnu domenu, izazivaj
 Manipulacija emocijama i mišljenjima javnosti predstavlja značajnu opasnost koju donosi \textit{deepfake} tehnologija. Stvaranje lažnih dojmova putem ovih manipulativnih sadržaja potiče ljude na donošenje odluka ili podržavanje ideja temeljenih na potpuno izmišljenim informacijama. Takva vrsta manipulacije može imati ozbiljne društvene posljedice, uključujući rast podrške pogrešnim političkim ili društvenim pokretima. Uz to, \textit{deepfake}ovi mogu dovesti do organiziranog javnog djelovanja na temelju tih lažnih ideja i dojmova. U situacijama kada se koriste za manipuliranje masama, mogu potaknuti neželjene reakcije ili čak potaknuti nasilne događaje. Ova opasnost naglašava potrebu za aktivnim pristupom u detekciji i suzbijanju \textit{deepfake}ova kako bi se očuvala društvena stabilnost.
 
 
-
 %-------------------------------------------------------------------------------
 \chapter{Razrada}
 \section{Metode stvaranja}
@@ -109,18 +108,38 @@ Ove metode, bilo da se temelje na GAN-ovima ili drugim naprednim arhitekturama d
 Artefakti su anomalije i nepravilnosti koje se pojavljuju u uvjerljivom krivotvorenom sadržaju. Najčešće se manifestiraju kao nepravilnosti u osvjetljenju i sjenama, nedostatak ili pogrešni detalji na području usta, ruku i očiju, razmazivanja rubova, promjena teksture površina(često na licima).
 U nekim slučajevima dolazi i do razlike u boji očiju. Sve ove pojave pomažu pri otkrivanju uvjerljivih krivotvorenog sadržaja, golim okom ili pak nekom drugom metodom detekcije. Ukoliko razmatramo uvjerljivo krivotvorene videouratke česte su i inkonzistencije u pokretima, ne poklapanja zvučnih i vizualnih elemenata itd.
 Ukoliko artefakti nisu uočljivi na prvi pogled, a ipak su prisutni, promatraču mogu stvoriti osjećaj nelagode zbog razlike u očekivanom i percipiranom ponašanju, mimici i pokretima.
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.7\linewidth]{slike/papa.png}
+   \caption{\textit{deepfake} pape Franje s naznačenim artefaktima}
+   \label{fig:report}
+\end{figure}
+%https://time.com/6266606/how-to-spot-deepfake-pope/
 \section{GAN-ovi}
 GAN-ovi su predstavljeni 2014. godine od strane Ian Goodfellowa i njegovih kolega.
 Osnovna ideja iza GAN sustava jest postojanje dva glavna dijela mreže: generator i diskriminator.
 Tijekom treninga, generator i diskriminator se natječu jedan protiv drugoga. Generator pokušava poboljšati svoje sposobnosti generiranja tako da vara diskriminator, dok diskriminator nastoji postati sve bolji u razlikovanju pravih podataka od lažnih. Ovaj suparnički proces dovodi do poboljšanja kvalitete generiranih podataka tijekom vremena.
-
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.7\linewidth]{slike/gan.png}
+   \caption{Prikaz arhitekture GAN sustava}
+   \label{fig:report}
+\end{figure}
+%https://developers.google.com/machine-learning/gan/gan_structure
 \subsection{Generator}
 Generator GAN-a je ključni dio sustava čija je zadaća stvaranje novih uzoraka ili podataka koji bi trebali biti što je moguće sličniji stvarnim primjerima iz skupa podataka na kojem je mreža trenirana. 
 Na ulaz generatora dovodi se nasumični šum, a zatim se on izmjenjuje u izlaz koji nalikuje podatcima iz skupa za treniranje. Uvođenjem nasumičnog šuma te uzorkovanjem iz različitih točaka ciljne distribucije postižemo raznolikost generiranih podataka.
+\begin{figure}[H]
+   \centering
+   \subfigure[\textit{Početak treniranja, generator jako loš}]{\includegraphics[width=0.75\linewidth]{slike/gan_stage1.png}}
+   \subfigure[\textit{Generator iz nasumičnog ulaza počinje stvarati uvjerljiviji izlaz}]{\includegraphics[width=0.75\linewidth]{slike/gan_stage2.png}}
+   \subfigure[\textit{Generator zavarava diskriminator}]{\includegraphics[width=0.75\linewidth]{slike/gan_stage3.png}}
+\end{figure}
 Generator dakle kreira sadržaj suparničkim pristupom, pokušavajući prevariti diskriminator, poboljšava svoj izlaz iz iteracije u iteraciju.
 
 \subsection{Diskriminator}
 Diskriminator u okviru GAN-a se jednostavno može opisati kao klasifikator, čija je osnovna zadaća razlikovanje stvarnih podataka od onih koje generira sam generator. Proces treniranja diskriminatora uključuje podatke iz dva izvora, čime se postiže njegova sposobnost prepoznavanja stvarnih i generiranih podataka. Stvarni podaci, poput autentičnih slika ljudi, služe kao pozitivni primjeri tijekom učenja. Ovi primjeri omogućuju diskriminatoru da nauči karakteristike stvarnih podataka i stvori referentnu točku za usporedbu tijekom identifikacije lažnih podataka. S druge strane, negativni primjeri dolaze iz lažnih instanci podataka koje proizvodi generator. Diskriminator tijekom treniranja razvija sposobnost razlikovanja autentičnih, stvarnih i generiranih, lažnih podataka. Ovaj proces suparništva potiče dinamički odnos između generatora i diskriminatora, čime se postiže postupna konvergencija prema visokokvalitetnim generiranim podacima.
+\setcounter{subfigure}{0}
 
 \subsection {Primjena GAN-ova za detekciju deepfake-ova}
 Ideja za primjenu dolazi iz činjenice da se upravo GAN-ovi često koriste kako bi se kreirali deepfakeovi i oni sami interno pokušavaju detektirati deepfakeove pomoću svog diskiminatora. 
@@ -201,7 +220,7 @@ Sveobuhvatna evaluacija klasifikatora \textit{Meso-4}, temeljenog na \textit{Mes
 %--- ZAKLJUČAK / CONCLUSION ----------------------------------------------------
 \chapter{Zaključak}
 Budući rad na ovom projektu uključuje izgradnju te treniranje vlastitog GAN modela, treniranje istog te ekstrakciju tako istreniranog diskriminatora. Ovako dobiveni diskriminator može biti iskorišten u raznim programskim rješenjima koja bi u stvarnom vremenu pregledavale sadržaje na društvenim mrežama, 
-detektirale krivotvoreni sadržaj i upozoravale korisnike na pojavu deepfakeova. Smatramo da bi navedena primjena učinila društvene mreže sigurnijima, reducirala širenje dezinformacija i smanjila potencijal za . 
+detektirale krivotvoreni sadržaj i upozoravale korisnike na pojavu deepfakeova. Smatramo da bi navedena primjena učinila društvene mreže sigurnijima, reducirala širenje dezinformacija i smanjila potencijal za malicioznu uporabu uvjerljivo krivotvorenih sadržaja bez ograničavanja te tehnologije koja ima izrazito širok spektar primjena. 
 \label{pog:zakljucak}
 
 
