@@ -1,16 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  14 JAN 2024 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.29)  26 FEB 2024 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./seminarski_rad.tex
 (seminarski_rad.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-10-26> (fer.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-04-20> (fer.cls
 Document Class: fer 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -21,95 +21,104 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count191
 \c@figure=\count192
 \c@table=\count193
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.s
+ty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count194
 \Gm@cntv=\count195
 \c@Gm@tempcnt=\count196
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks17
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
-)) (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.c
+fg))
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-) (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/10/23 3.82 The Babel package
+)
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/04/18 3.88 The Babel package
 \babel@savecnt=\count197
-\U@D=\dimen147
+\U@D=\dimen149
 \l@unhyphenated=\language79
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.de
+f)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count198
+
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/babel-croatian\croati
-an.ldf
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/babel-croatian\croa
+tian.ldf
 Language: croatian 2014/03/31 v1.3m Croatian support from the babel system
 ))
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/hr\bab
-el-croatian.tex
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/hr\b
+abel-croatian.tex
 Package babel Info: Importing font and identification data for croatian
 (babel)             from babel-hr.ini. Reported on input line 11.
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
-.cfg
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
-ef
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-\stockwidth=\dimen148
-\stockheight=\dimen149
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.st
+y
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.s
+ty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -118,24 +127,23 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip49
-
+\@mathmargin=\skip50
 For additional information on amsmath, use the `?' option.
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen152
 ))
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen153
-)
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count199
@@ -180,13 +188,13 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen159
 \lineht@=\dimen160
 \@envbody=\toks24
-\multlinegap=\skip50
-\multlinetaggap=\skip51
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2e.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -196,9 +204,12 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+)
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
+y
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen161
 \captionmargin=\dimen162
@@ -212,46 +223,46 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count277
 \c@continuedfloat=\count278
-) (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+) (C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+) (C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.s
+ty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip52
+\labelindent=\skip53
 \enit@outerparindent=\dimen169
 \enit@toks=\toks26
 \enit@inbox=\box53
 \enit@count@id=\count279
 \enitdp@description=\count280
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.s
-ty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind
+.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+) (C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-)
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+) (C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip53
-\bibsep=\skip54
+\bibhang=\skip54
+\bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count281
 )
 \listindentation=\dimen170
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.s
-ty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext
+.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count282
@@ -273,9 +284,10 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count298
 \c@blind@pangrammax=\count299
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.s
+ty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count300
 \float@exts=\toks27
@@ -283,15 +295,15 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks28
 \@floatcapt=\box55
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.s
-ty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
+.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip55
-\subfigcapskip=\skip56
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
 \subfigcaptopadj=\dimen171
-\subfigbottomskip=\skip57
+\subfigbottomskip=\skip58
 \subfigcapmargin=\dimen172
-\subfiglabelskip=\skip58
+\subfiglabelskip=\skip59
 \c@subfigure=\count301
 \c@lofdepth=\count302
 \c@subtable=\count303
@@ -301,19 +313,20 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 * Local config file subfigure.cfg used *
 ****************************************
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.c
-fg)
-\subfig@top=\skip59
-\subfig@bottom=\skip60
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
+.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
 )
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 32
 .
- (C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
-dftex.def
-File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box56
 )
@@ -321,7 +334,14 @@ File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [seminarski].
 
-(seminarski_rad.aux)
+(seminarski_rad.aux
+
+LaTeX Warning: Label `fig:report' multiply defined.
+
+
+LaTeX Warning: Label `fig:report' multiply defined.
+
+)
 \openout1 = `seminarski_rad.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -374,8 +394,8 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
-mkii
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count306
 \scratchdimen=\dimen173
@@ -389,14 +409,14 @@ mkii
 \makeMPintoPDFobject=\count311
 \everyMPtoPDFconversion=\toks30
 )
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
--base.sty
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
-.cfg
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-s
+ys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
@@ -406,19 +426,19 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 36
 .
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
-(C:\Users\Barbara\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\mpavlovic\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
@@ -426,7 +446,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
 
 [1
 
-{C:/Users/Barbara/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/mpavlovic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/
+mpavlovic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 
 LaTeX Warning: Engleski naziv rada nije definiran. Koristi \engtitle za definir
 anje.
@@ -443,104 +464,124 @@ Poglavlje 1.
 
 ] [2]
 Poglavlje 2.
+<slike/papa.png, id=23, 2409.0pt x 1606.0pt>
+File: slike/papa.png Graphic file (type png)
+<use slike/papa.png>
+Package pdftex.def Info: slike/papa.png  used on input line 113.
+(pdftex.def)             Requested size: 288.79422pt x 192.51564pt.
 [3
 
-] [4] [5]
+]
+<slike/gan.png, id=27, 1074.0125pt x 471.7625pt>
+File: slike/gan.png Graphic file (type png)
+<use slike/gan.png>
+Package pdftex.def Info: slike/gan.png  used on input line 124.
+(pdftex.def)             Requested size: 288.79422pt x 126.85208pt.
+ [4 <./slike/papa.png>]
+<slike/gan_stage1.png, id=33, 1074.0125pt x 203.76125pt>
+File: slike/gan_stage1.png Graphic file (type png)
+<use slike/gan_stage1.png>
+Package pdftex.def Info: slike/gan_stage1.png  used on input line 134.
+(pdftex.def)             Requested size: 309.42372pt x 58.7037pt.
+<slike/gan_stage2.png, id=34, 1074.0125pt x 159.59625pt>
+File: slike/gan_stage2.png Graphic file (type png)
+<use slike/gan_stage2.png>
+Package pdftex.def Info: slike/gan_stage2.png  used on input line 135.
+(pdftex.def)             Requested size: 309.42372pt x 45.97975pt.
+<slike/gan_stage3.png, id=35, 1074.0125pt x 158.5925pt>
+File: slike/gan_stage3.png Graphic file (type png)
+<use slike/gan_stage3.png>
+Package pdftex.def Info: slike/gan_stage3.png  used on input line 136.
+(pdftex.def)             Requested size: 309.42372pt x 45.69057pt.
+ [5 <./slike/gan.png> <./slike/gan_stage1.png> <./slike/gan_stage2.png> <./slik
+e/gan_stage3.png>] [6]
 Poglavlje 3.
-
-Package natbib Warning: Citation `mesonet' on page 6 undefined on input line 13
-2.
-
-<slike/arh.png, id=33, 311.9655pt x 389.65575pt>
+<slike/arh.png, id=46, 311.9655pt x 389.65575pt>
 File: slike/arh.png Graphic file (type png)
 <use slike/arh.png>
-Package pdftex.def Info: slike/arh.png  used on input line 139.
+Package pdftex.def Info: slike/arh.png  used on input line 159.
 (pdftex.def)             Requested size: 185.65297pt x 231.89262pt.
-
-Package natbib Warning: Citation `mesonet' on page 6 undefined on input line 13
-9.
-
-<slike/kod.png, id=35, 355.92975pt x 381.22424pt>
+<slike/kod.png, id=47, 355.92975pt x 381.22424pt>
 File: slike/kod.png Graphic file (type png)
 <use slike/kod.png>
-Package pdftex.def Info: slike/kod.png  used on input line 144.
+Package pdftex.def Info: slike/kod.png  used on input line 164.
 (pdftex.def)             Requested size: 185.65297pt x 198.84853pt.
+[7
 
-Package natbib Warning: Citation `mesonet' on page 6 undefined on input line 15
-2.
-
-[6
-
- <./slike/arh.png> <./slike/kod.png>]
-<slike/tp.png, id=41, 612.48825pt x 173.448pt>
+]
+<slike/tp.png, id=51, 612.48825pt x 173.448pt>
 File: slike/tp.png Graphic file (type png)
 <use slike/tp.png>
-Package pdftex.def Info: slike/tp.png  used on input line 160.
+Package pdftex.def Info: slike/tp.png  used on input line 180.
 (pdftex.def)             Requested size: 309.42372pt x 87.62627pt.
-<slike/fp.png, id=42, 591.4095pt x 174.6525pt>
+<slike/fp.png, id=52, 591.4095pt x 174.6525pt>
 File: slike/fp.png Graphic file (type png)
 <use slike/fp.png>
-Package pdftex.def Info: slike/fp.png  used on input line 161.
+Package pdftex.def Info: slike/fp.png  used on input line 181.
 (pdftex.def)             Requested size: 309.42372pt x 91.3768pt.
-<slike/tn.png, id=43, 596.82974pt x 172.84575pt>
+<slike/tn.png, id=53, 596.82974pt x 172.84575pt>
 File: slike/tn.png Graphic file (type png)
 <use slike/tn.png>
-Package pdftex.def Info: slike/tn.png  used on input line 162.
+Package pdftex.def Info: slike/tn.png  used on input line 182.
 (pdftex.def)             Requested size: 309.42372pt x 89.61127pt.
-<slike/fn.png, id=44, 598.03426pt x 172.2435pt>
+<slike/fn.png, id=54, 598.03426pt x 172.2435pt>
 File: slike/fn.png Graphic file (type png)
 <use slike/fn.png>
-Package pdftex.def Info: slike/fn.png  used on input line 163.
+Package pdftex.def Info: slike/fn.png  used on input line 183.
 (pdftex.def)             Requested size: 309.42372pt x 89.1177pt.
- [7 <./slike/tp.png> <./slike/fp.png> <./slike/tn.png> <./slike/fn.png>]
-<slike/matrica.png, id=52, 443.85825pt x 347.49825pt>
+ [8 <./slike/arh.png> <./slike/kod.png>] [9 <./slike/tp.png> <./slike/fp.png> <
+./slike/tn.png> <./slike/fn.png>]
+<slike/matrica.png, id=67, 443.85825pt x 347.49825pt>
 File: slike/matrica.png Graphic file (type png)
 <use slike/matrica.png>
-Package pdftex.def Info: slike/matrica.png  used on input line 173.
+Package pdftex.def Info: slike/matrica.png  used on input line 193.
 (pdftex.def)             Requested size: 288.79422pt x 226.10448pt.
-<slike/report.png, id=53, 281.25075pt x 106.59825pt>
+<slike/report.png, id=68, 281.25075pt x 106.59825pt>
 File: slike/report.png Graphic file (type png)
 <use slike/report.png>
-Package pdftex.def Info: slike/report.png  used on input line 184.
+Package pdftex.def Info: slike/report.png  used on input line 204.
 (pdftex.def)             Requested size: 288.79422pt x 109.45583pt.
- [8 <./slike/matrica.png>]
-<slike/auc.png, id=58, 395.67825pt x 284.86424pt>
+ [10 <./slike/matrica.png> <./slike/report.png>]
+<slike/auc.png, id=75, 395.67825pt x 284.86424pt>
 File: slike/auc.png Graphic file (type png)
 <use slike/auc.png>
-Package pdftex.def Info: slike/auc.png  used on input line 193.
+Package pdftex.def Info: slike/auc.png  used on input line 213.
 (pdftex.def)             Requested size: 288.79422pt x 207.92308pt.
- [9 <./slike/report.png> <./slike/auc.png>]
+ [11 <./slike/auc.png>]
 Poglavlje 4.
-No file seminarski_rad.bbl.
-[10
+(seminarski_rad.bbl [12
 
 ]
 Poglavlje 5.
+) [13
 
-Package natbib Warning: There were undefined citations.
+]
+Poglavlje 6.
+[14
 
-[11
+] (seminarski_rad.aux)
 
-] (seminarski_rad.aux) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7460 strings out of 475380
- 123342 string characters out of 2775828
- 484488 words of memory out of 3000000
- 28709 multiletter control sequences out of 15000+600000
- 535123 words of font info for 97 fonts, out of 8000000 for 9000
+ 7518 strings out of 476315
+ 125025 string characters out of 5785308
+ 1857068 words of memory out of 5000000
+ 27829 multiletter control sequences out of 15000+600000
+ 575348 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,9n,77p,1011b,384s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/e
-nc/dvips/base/8r.enc}<C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/helvetic/uhvb8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/fonts
-/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Barbara/AppData/Local/Programs/MiKTeX/
-fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Barbara/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Barbara/AppData/Local/Programs
-/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Barbara/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminarski_rad.pdf (14 pages, 1473992 bytes).
+ 72i,9n,77p,1387b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/mpavlovic/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uh
+vb8a.pfb><C:/Users/mpavlovic/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
+etic/uhvr8a.pfb><C:/Users/mpavlovic/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/helvetic/uhvro8a.pfb><C:/Users/mpavlovic/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmb8a.pfb><C:/Users/mpavlovic/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/times/utmr8a.pfb><C:/Users/mpavlovic/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on seminarski_rad.pdf (17 pages, 5438645 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

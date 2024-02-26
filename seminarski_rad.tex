@@ -70,7 +70,7 @@ In conclusion, we discuss future work, improvements and feasability of a real wo
 \label{pog:uvod}
 \section{Pojava}
 
-Prva poznata pojava pojma \textit{deepfake} datira iz prosinca 2017. godine kada je korisnik Reddita osnovao \textit{subreddit} pod nazivom "r/deepfakes".% citiraj https://www.britannica.com/technology/deepfake
+Prva poznata pojava pojma \textit{deepfake} datira iz prosinca 2017. godine kada je korisnik Reddita osnovao \textit{subreddit} pod nazivom "r/deepfakes".\cite{britannica_deepfake}% citiraj https://www.britannica.com/technology/deepfake
 Ovaj podforum uglavnom je sadržavao pornografski sadržaj u kojem su izmijenjena lica kako bi nalikovali poznatim osobama. Ovaj fenomen predstavlja tehnološki napredak, ali istovremeno izaziva zabrinutost zbog potencijalne zloupotrebe.
 
 Takvi sadržaji često su prikazivali poznate i utjecajne osobe u situacijama koje se nikada nisu dogodile. Neki od poznatijih primjera uključuju papu Franju, bivšeg predsjednika SAD-a Donalda Trumpa te druge javne ličnosti. Ovaj trend je brzo stekao popularnost, često zbog senzacionalizma i šoka koji izaziva.
@@ -148,7 +148,8 @@ U nastavku ovog rada ekstraktirati ćemo diskriminator već istreniranog GAN mod
 %-------------------------------------------------------------------------------
 \chapter{Rezultati i rasprava}
 \label{pog:rezultati_i_rasprava}
-Koristili smo i rekreirali arhitekturu mreže iz rada "\textit{MesoNet: a Compact Facial Video Forgery Detection Network}\cite{mesonet}". Rad predstavlja učinkovitu metodu za automatsko detektiranje uvjerljivog krivotvorenog sadržaja lica na fotografijama i videozapisima. Posebno se fokusira na dvije moguće tehnike korištene za generiranje hiperrealističkog krivotvorenog sadržaja: \textit{Deepfake} i \textit{Face2Face}. Autori rada ističu da tradicionalne tehnike forenzike slika nisu prikladne za videozapise zbog kompresije koja snažno degradira podatke. Stoga su se odlučili za slijediti pristup dubokog učenja te su predstavili dvije mreže (\textit{Meso-4} i \textit{MesoInception-4}), obje s malim brojem slojeva kako bi se bolje usredotočile na mezoskopska svojstva slika. Eksperimenti su pokazali iznimno visoku stopu uspješnosti detekcije, s više od 98\% za \textit{Deepfake} i 95\% za \textit{Face2Face}.
+Koristili smo i rekreirali arhitekturu mreže iz rada "\textit{MesoNet: a Compact Facial Video Forgery Detection Network}\cite{mesonet}". Rad predstavlja učinkovitu metodu za automatsko detektiranje uvjerljivog krivotvorenog sadržaja lica na fotografijama i videozapisima. Posebno se fokusira na dvije moguće tehnike korištene za generiranje hiperrealističkog krivotvorenog sadržaja: \textit{Deepfake} i \textit{Face2Face}. Autori rada ističu da tradicionalne tehnike forenzike slika nisu prikladne za videozapise zbog kompresije koja snažno degradira podatke. Stoga su se odlučili za slijediti pristup dubokog učenja te su predstavili dvije mreže (\textit{Meso-4} i \textit{MesoInception-4}), obje s malim brojem slojeva kako bi se bolje usredotočile na mezoskopska svojstva slika. Korišteni dataset za treniranje i validaciju u ovom istraživanju preuzet je iz rada 'MesoNet: a Compact Facial Video Forgery Detection Network' autora Dariusa Afchara, Vincenta Nozicka, Junichija Yamagishija i Isaa Echizena. U spomenutom radu, istraživači su koristili 5111 slika krivotvorenog sadržaja i 7250 stvarnih slika za trening mreže, dok su validaciju provodili na 2889 krivotvorenih i 4259 stvarnih slika za \textit{Deepfake} tehniku i po 4500 slika obje klase za treniranje, odnosno po 3000 slika za validaciju za \textit{Face2Face}.
+Eksperimenti su pokazali iznimno visoku stopu uspješnosti detekcije, s više od 98\% za \textit{Deepfake} i 95\% za \textit{Face2Face}.
 
 \begin{figure}[H]
    \centering
@@ -229,6 +230,7 @@ detektirale krivotvoreni sadržaj i upozoravale korisnike na pojavu deepfakeova.
 
 % Literatura se automatski generira / References are automatically generated
 % Upiši ime BibTeX datoteke bez .bib nastavka / Enter the name of the BibTeX file without .bib extension
+\bibliographystyle{fer} % Choose your bibliography style
 \bibliography{literatura}
 
 
